@@ -1,0 +1,160 @@
+.account_list{
+    border:1px solid rgb(192, 57, 43);
+    height: auto;
+}
+.account_list > ul:nth-of-type(1) { 
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    height: 35px;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border-bottom:2px solid rgb(192, 57, 43);
+}
+.account_list > ul:nth-of-type(1) > li{
+    height:inherit;
+    line-height: 35px;
+}
+.account_list > ul > li:nth-of-type(1){
+    width: 5%;
+}
+.account_list > ul > li:nth-of-type(2){
+    width: 12%;
+}
+.account_list > ul > li:nth-of-type(3){
+    width: 8%;
+}
+.account_list > ul > li:nth-of-type(4){
+    width: 10%;
+}
+.account_list > ul > li:nth-of-type(5){
+    width: 10%;
+}
+.account_list > ul > li:nth-of-type(6){
+    width: 10%;
+}
+.account_list > ul > li:nth-of-type(7){
+    width: 8%;
+}
+.account_list > ul > li:nth-of-type(8){
+    width: 8%;
+}
+.account_list > ul > li:nth-of-type(9){
+    width: 19%;
+}
+.account_list > ul > li:nth-of-type(10){
+    width: 10%;
+}
+
+.account_list > .noaccount {
+    width: 100%;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    height: 35px;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.account_list > .noaccount > li:nth-last-of-type(1){
+    width:inherit;
+    text-align: center;
+}
+.account_data { 
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    height: 35px;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px dashed #ccc;
+}
+.account_data:last-of-type{
+    border-bottom: 0px;
+}
+
+/* 거래처 등록 */
+.account_view { 
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+}
+.account_view > ul { 
+    width: 100%;
+    list-style: none;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.account_view > ul > li {
+    height: 35px;
+    line-height: 35px;
+    border-bottom:1px solid  rgb(192, 57, 43);
+    box-sizing: border-box;
+}
+.account_view > ul > li:nth-of-type(1){
+    background-color: rgb(214, 116, 105);
+    width: 10%;
+}
+.account_view > ul > li:nth-of-type(2){
+    width: 40%;
+    text-align: left;
+    padding-left: 5px;
+}
+.account_view > ul > li:nth-of-type(3){
+    background-color: rgb(214, 116, 105);
+    width: 10%;
+}
+.account_view > ul > li:nth-of-type(4){
+    width: 40%;
+    text-align: left;
+    padding-left: 5px;
+}
+.account_input1 {
+    width: 80px;
+    height: 25px;
+}
+.account_input2 {
+    width: 120px;
+    height: 25px;
+}
+.account_input3 {
+    width: 150px;
+    height: 25px;
+}
+.account_input4 {
+    width: 250px;
+    height: 25px;
+}
+.account_input5 {
+    width: 340px;
+    height: 25px;
+}
+.radio_css { 
+    height: inherit;
+    width: 60px;
+    display: inline-block;
+}
+em{
+    font-style: normal;
+    vertical-align: 1.5px;
+}
+.small_btn { 
+    width: 40px;
+    height: 25px;
+    font-size: 12px;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
