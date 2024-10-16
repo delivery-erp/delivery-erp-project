@@ -1,0 +1,82 @@
+
+.procho {
+    height: auto;
+}
+.procho > ul{
+    width: inherit;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.procho > ul:nth-of-type(1) > li { 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:12px;
+    height: 45px;
+    border-top:1px solid rgb(192, 57, 43);
+    border-bottom:2px solid rgb(192, 57, 43);
+    border-left: 1px solid rgb(192, 57, 43);   
+    box-sizing: border-box; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.procho > ul:nth-of-type(1) > li:last-of-type{
+    border-right: 1px solid rgb(192, 57, 43);
+}
+.procho > .nomargin > li:nth-of-type(1) { 
+    width: 100%;
+}
+.procho > ul > li:nth-of-type(1){
+    width: 8%;
+}
+.procho > ul > li:nth-of-type(2){
+    width: 8%;
+}
+.procho > ul > li:nth-of-type(3){
+    width: 17%;
+}
+.procho > ul > li:nth-of-type(4){
+    width: 8%;
+}
+.procho > ul > li:nth-of-type(5){
+    width: 8%;
+}
+.procho > ul > li:nth-of-type(6){
+    width: 12%;
+}
+.procho > ul > li:nth-of-type(7){
+    width: 8%;
+}
+.procho > ul > li:nth-of-type(8){
+    width: 7%;
+}
+.procho > ul > li:nth-of-type(9){
+    width: 10%;
+}
+.procho > ul > li:nth-of-type(10){
+    width: 15%;
+}
+.procho > .store_inul{
+    height: 40px;
+}
+.procho > .store_inul > li{
+    text-align: center;
+    height: 40px;
+    border-bottom: 1px dashed #ccc;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.store_btn1, .store_btn2 {
+    width:70px;
+    height: 25px;
+    font-size: 11.5px;
+    background-color: black;
+    color: white;
+    border: 0;
+    margin-right: 5px;
+}
